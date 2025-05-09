@@ -72,6 +72,9 @@
         
         .header-main {
             padding: 5px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
         
         .logo-container {
@@ -82,6 +85,25 @@
         .logo-image {
             width: 160px;
             height: auto;
+        }
+        
+        .mobile-phone {
+            display: none;
+            margin-left: 10px;
+        }
+        
+        .mobile-phone a {
+            display: flex;
+            align-items: center;
+            color: var(--primary-color);
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .mobile-phone i {
+            margin-right: 5px;
+            color: var(--secondary-color);
         }
 
         /* Hero bölümü arkaplan rengi ve düzenlemesi */
@@ -218,6 +240,14 @@
             .contact-info a {
                 margin: 5px 0;
                 font-size: 0.9rem;
+            }
+            
+            .mobile-phone {
+                display: block;
+            }
+            
+            .nav-desktop {
+                display: none;
             }
         }
         
@@ -390,10 +420,6 @@
                         <i class="fas fa-phone"></i>
                         <span>+90 532 563 27 52</span>
                     </a>
-                    <a href="mailto:info@yildirimnakliyat.com">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@yildirimnakliyat.com</span>
-                    </a>
                     <a href="https://wa.me/905325632752" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>WhatsApp</span>
@@ -405,11 +431,19 @@
         <div class="container">
             <!-- Ana menü -->
             <div class="header-main">
-                <a href="index.html" class="logo">
-                    <div class="logo-container">
-                        <img src="public/images/logo.png" alt="Yıldırım Ağır Nakliyat Logo" class="logo-image">
+                <div class="logo-tel-container" style="display: flex; align-items: center;">
+                    <a href="index.html" class="logo">
+                        <div class="logo-container">
+                            <img src="public/images/logo.png" alt="Yıldırım Ağır Nakliyat Logo" class="logo-image">
+                        </div>
+                    </a>
+                    <div class="mobile-phone">
+                        <a href="tel:+905325632752">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 532 563 27 52</span>
+                        </a>
                     </div>
-                </a>
+                </div>
                 
                 <!-- Mobil menü butonu -->
                 <div class="nav-mobile">
@@ -658,10 +692,6 @@
                         <i class="fas fa-phone"></i>
                         <span>+90 532 563 27 52</span>
                     </a>
-                    <a href="mailto:info@yildirimnakliyat.com">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@yildirimnakliyat.com</span>
-                    </a>
                     <a href="https://wa.me/905325632752" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>WhatsApp ile Teklif Alın</span>
@@ -735,10 +765,6 @@
                         <li class="contact-item">
                             <i class="fas fa-phone"></i>
                             <a href="tel:+905325632752">+90 532 563 27 52</a>
-                        </li>
-                        <li class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:info@yildirimnakliyat.com">info@yildirimnakliyat.com</a>
                         </li>
                         <li class="contact-item">
                             <i class="fab fa-whatsapp"></i>
