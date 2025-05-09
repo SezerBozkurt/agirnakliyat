@@ -1,0 +1,10 @@
+Bu dizinde aşağıdaki resimleri eklemeniz gerekiyor:
+
+1. favicon.png - Sitenin favicon ikonu
+2. hero-bg.jpg - Hero bölümünün arka plan resmi (büyük bir kamyon veya ağır nakliyat görseli)
+3. about-1.jpg - Hakkımızda bölümü için 1. resim (nakliyat kamyonu)
+4. about-2.jpg - Hakkımızda bölümü için 2. resim (çalışan ekip)
+5. about-3.jpg - Hakkımızda bölümü için 3. resim (ağır yük taşıma)
+6. about-4.jpg - Hakkımızda bölümü için 4. resim (vinç ile yükleme)
+
+Bu görüntüler şirkete ait gerçek görüntülerle değiştirilmelidir. İnternet'ten telif ücretsiz görseller de kullanabilirsiniz. 
